@@ -10,8 +10,8 @@
         </div>
         <div class="col-xl-7 col-lg-7">
           <form class="header-search-form">
-            <input type="text" placeholder="filter products by name ..." [(ngModel)]="keywords"
-              (keyup)="filterUsingKeywords(keywords)" [ngModelOptions]="{standalone: true}">
+            <input type="text" placeholder="filter products by name ..." (keyup)="filterUsingKeywords()"
+              [(ngModel)]="keywords" [ngModelOptions]="{standalone: true}">
           </form>
         </div>
         <div class="col-xl-3 col-lg-3">
