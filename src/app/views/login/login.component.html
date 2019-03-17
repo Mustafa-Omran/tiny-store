@@ -1,3 +1,11 @@
-<p>
-  login works!
-</p>
+<div class="container mb-5 mt-5">
+  <div class="row text-center">
+    <div class="col-lg-6 contact-info">
+      <form class="contact-form" [formGroup]="form">
+        <input type="text" placeholder="username: user" [formControl]="username">
+        <input type="text" placeholder="password: 12345678" [formControl]="password">
+        <button class="site-btn" (click)="login()">LOGIN</button>
+      </form>
+    </div>
+  </div>
+</div>

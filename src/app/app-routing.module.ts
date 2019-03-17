@@ -9,6 +9,10 @@ const routes: Routes = [
       {
         path: 'catalog',
         loadChildren: './views/catalog/catalog.module#CatalogModule'
+      },
+      {
+        path: 'login',
+        loadChildren: './views/login/login.module#LoginModule'
       }
     ]
   },
