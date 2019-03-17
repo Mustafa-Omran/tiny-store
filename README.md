@@ -11,4 +11,4 @@ After cloning the project Run `npm i` to install Modules. then Run `ng serve` co
 
 ## Live version
 
-[see url](https://tiny-store.netlify.com/catalog)
+[Tiny store live](https://tiny-store.netlify.com/catalog)
